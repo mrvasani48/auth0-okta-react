@@ -3,7 +3,7 @@
 export const auth0Config = {
   domain: 'dev-05mfl0bcrjhqjj20.us.auth0.com',
   clientId: 'jhUBGMvMoepMM83Pf8QbXCH80A8xhagY',
-  redirect_uri: window.location.origin + '/auth0/callback',
+  redirect_uri:window.location.origin,
   scope: "read:current_user update:current_user_metadata"
 };
 
